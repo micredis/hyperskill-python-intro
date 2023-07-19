@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: 50cent
+- text: my_name
+- text: _joke
+- text: gr8
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6587#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 18 Jul 2023 01:04:15 UTC"
+record: -1
+selected_options:
+- 1
+- 2
+- 3
+local_check: false

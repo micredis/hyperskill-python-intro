@@ -101,19 +101,8 @@ files:
   text: '# Write your code here'
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6083#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error in test #1
-
-    The program hangman.py has unexpectedly terminated.
-    It finished execution too early, should continue running.
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    H A N G M A N
-    The game will be available soon.
-  time: "Mon, 17 Jul 2023 19:49:32 UTC"
+  message: Congratulations!
+  time: "Wed, 19 Jul 2023 07:31:52 UTC"
 record: 2

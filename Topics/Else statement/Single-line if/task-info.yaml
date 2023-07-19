@@ -1,0 +1,26 @@
+type: matching
+captions:
+- condition
+- first alternative
+- second alternative
+options:
+- print(True)
+- x &gt;= 0
+- print(False)
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5935#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 19 Jul 2023 06:29:15 UTC"
+record: -1
+ordering:
+- 1
+- 0
+- 2

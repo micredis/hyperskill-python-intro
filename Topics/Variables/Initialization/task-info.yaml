@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A NameError exception occurs.
+- text: An InvalidError exception occurs.
+- text: Python will bite you.
+- text: Python will prevent typing such a variable.
+- text: As Python is a dynamic typed language the initial value will be None.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5861#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 18 Jul 2023 01:02:15 UTC"
+record: -1
+selected_options:
+- 0
+local_check: false

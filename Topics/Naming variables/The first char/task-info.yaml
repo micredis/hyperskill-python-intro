@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: lowercase letters
+- text: digits
+- text: uppercase letters
+- text: underscores
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6721#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 18 Jul 2023 03:29:33 UTC"
+record: -1
+selected_options:
+- 1
+local_check: false

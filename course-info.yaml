@@ -8,6 +8,7 @@ summary: "<p>Hangman is a popular yet grim puzzle game. A cruel computer hides a
   \ href=\"https://hyperskill.org/projects/69?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
   >https://hyperskill.org/projects/69</a>"
 programming_language: Python
+environment: unittest
 content:
 - Hangman (Python)
 - Topics
