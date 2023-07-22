@@ -10,6 +10,5 @@ content:
 - If statement
 - Else statement
 - Elif statement
-- Overview of the basic program
-- Invoking a function
-- Declaring a function
+- Load module
+- Arguments
