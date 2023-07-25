@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Common mathematical functions and constants.
+- text: Functions designed for security and cryptography purposes.
+- text: Various functions to generate truly random numbers.
+- text: Functions to generate pseudo-random numbers.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7001#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 25 Jul 2023 22:22:27 UTC"
+record: -1
+selected_options:
+- 3
+local_check: false
