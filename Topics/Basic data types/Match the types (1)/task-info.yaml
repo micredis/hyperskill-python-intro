@@ -1,0 +1,24 @@
+type: matching
+custom_name: Match the types
+captions:
+- float
+- int
+- str
+options:
+- 0.0
+- 0
+- '&#x27;0.0&#x27;'
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5853#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2

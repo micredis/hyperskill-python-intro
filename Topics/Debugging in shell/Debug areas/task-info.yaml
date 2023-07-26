@@ -1,0 +1,30 @@
+type: matching
+captions:
+- Stack
+- Locals
+- Globals
+- Source
+options:
+- "Shows all variables, defined inside the current function."
+- Tells us what is being run and where the corresponding piece of code lies.
+- Shows all variables created outside of functions' scopes.
+- Opens other modules and highlights the corresponding line of code when our program
+  uses a function or a class from them.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15526#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 26 Jul 2023 00:49:41 UTC"
+record: -1
+ordering:
+- 1
+- 0
+- 2
+- 3

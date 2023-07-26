@@ -432,11 +432,10 @@ files:
   learner_created: false
 - name: tests.py
   visible: false
-  text: |
+  text: |-
     from test.tests import HangmanTest
 
-    if __name__ == '__main__':
-        HangmanTest('hangman.hangman').run_tests()
+    if __name__ == '__main__':    HangmanTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6086#comment
 status: Unchecked

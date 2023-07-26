@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: No! Any piece of code can contain an error that is hard to see at first sight.
+- text: Yes! Seasoned programmers always write without bugs.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8247#comment
+status: Solved
+feedback:
+  message: "<html>That's true! No matter how experieced you are, the bugs will be\
+    \ there with your code. Always.</html>"
+  time: "Wed, 26 Jul 2023 00:48:56 UTC"
+record: -1
+selected_options:
+- 0
+local_check: false
