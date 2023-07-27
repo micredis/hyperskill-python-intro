@@ -10,9 +10,9 @@ content:
 - If statement
 - Else statement
 - Elif statement
-- Overview of the basic program
-- Invoking a function
-- Declaring a function
-- Indexes
-- Arguments (1)
-- Debugging in shell
+- Load module
+- Arguments
+- Tuple
+- Random module
+- String formatting
+- For loop
