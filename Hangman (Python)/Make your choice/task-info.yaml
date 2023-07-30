@@ -123,12 +123,14 @@ files:
   learner_created: false
 - name: tests.py
   visible: false
-  text: |
+  text: |-
     from test.tests import HangmanTest
 
-    if __name__ == '__main__':
-        HangmanTest('hangman.hangman').run_tests()
+    if __name__ == '__main__':    HangmanTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6084#comment
 status: Solved
-record: 3
+feedback:
+  message: Congratulations!
+  time: "Wed, 26 Jul 2023 01:04:22 UTC"
+record: 4

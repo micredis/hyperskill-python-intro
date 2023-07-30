@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  highlight_level: NONE
+  text: |-
+    # the following line reads the input and converts it into a list; do not modify it, please
+    hidden = list(input())
+
+    # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7188#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 27 Jul 2023 07:03:49 UTC"
+record: -1
+submission_language: python3
