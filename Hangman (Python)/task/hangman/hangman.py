@@ -5,16 +5,7 @@ print("H A N G M A N")
 print()
 words = ["python", "java", "swift", "javascript"]
 secret_word = random.choice(words)
-attempt_times = 8
-
-
-# def show_3_letters(text):
-#     abridged_word = ''
-#     for i in range(3):
-#         abridged_word += word[i]
-#     for i in range(3, len(text)):
-#         abridged_word += '-'
-#     return abridged_word
+lives = 8
 
 
 def reveal_character(secret_string, guessed_string, letter):
@@ -28,23 +19,22 @@ def reveal_character(secret_string, guessed_string, letter):
 
 
 guessed_word = '-' * len(secret_word)
-for i in range(attempt_times):
+while lives > 0:
     print(guessed_word)
     character = input("Input a letter: > ")
     if character not in secret_word:
         print("That letter doesn't appear in the word.")
-        print()
+        lives -= 1
+    elif character in guessed_word:
+        print("No improvements.")
+        lives -= 1
     else:
-        print()
         guessed_word = reveal_character(secret_word, guessed_word, character)
-
-
-print("Thanks for playing!")
-
-
-# user_input = input("Guess the word " + show_3_letters(word) + ": > ")
-# if word == user_input:
-#     print("You survived!")
-# else:
-#     print("You lost!")
-
+    print()
+    if guessed_word == secret_word:
+        print(guessed_word)
+        print("You guessed the word!")
+        print("You survived!")
+        break
+else:
+    print("You lost!")
